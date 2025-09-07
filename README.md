@@ -1,3 +1,3 @@
-grapse sto terminal tou vscode auta ta dyo commands!!!!!!!!!!!!!!!!!\n
-pip install numpy \n
+grapse sto terminal tou vscode auta ta dyo commands!!!!!!!!!!!!!!!!! <br>
+pip install numpy  <br>
 pip install matplotlib
