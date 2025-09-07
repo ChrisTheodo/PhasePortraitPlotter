@@ -31,7 +31,7 @@ def phase_portrait(A, x_range=(-2, 2), y_range=(-2, 2), n_grid=20):
         v = eigvecs[:, i]
 
         plt.plot([0, v[0]], [0, v[1]], color="red", lw=2, label=f"eig {i+1}")
-        plt.plot([0, -v[0]], [0, -v[1]], color="red", lw=2)  # και στην αντίθετη κατεύθυνση
+        plt.plot([0, -v[0]], [0, -v[1]], color="red", lw=2)  
 
     plt.axhline(0, color='black', linewidth=0.5)
     plt.axvline(0, color='black', linewidth=0.5)
